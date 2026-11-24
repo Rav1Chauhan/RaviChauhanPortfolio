@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: "Ravi Chauhan | Blockchain & Web3 Developer",
     description:
       "Building decentralized applications and exploring blockchain technology.",
-    url: "https://YOUR-PORTFOLIO-DOMAIN.vercel.app",
+    url: "https://ravi-chauhan-portfolio.vercel.app",
     siteName: "Ravi Chauhan Portfolio",
     type: "website",
   },
