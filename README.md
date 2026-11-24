@@ -1,90 +1,171 @@
-# Parakh Choudhary — Portfolio
 
-An Awwwards-level portfolio built with **Next.js 14**, **GSAP**, and **Three.js**.
+# Ravi Chauhan — Blockchain & Web3 Developer
 
-## ✦ Features
+Personal portfolio showcasing my work in Blockchain, Web3, Smart Contract Development, and Full-Stack Engineering.
 
-- **Three.js Interactive Background** — Particle field, floating wireframe torus & icosahedron, grid plane, all reacting to mouse movement
-- **GSAP Animations** — SplitText hero entrance, scroll-triggered reveals, magnetic hover effects, infinite marquee
-- **Lenis Smooth Scroll** — Buttery smooth scrolling throughout
-- **Custom Cursor** — Dot + ring with lag, morphs on hover
-- **Responsive** — Fully mobile-friendly
-- **Performance** — Dynamic imports for Three.js canvas (SSR-safe), DPR capping
+I'm currently pursuing a B.Tech in Computer Science & Engineering at Galgotias College of Engineering and Technology. My focus is on building decentralized applications, developing smart contracts, and exploring blockchain infrastructure.
 
-## ✦ Tech Stack
+## About Me
 
-| Layer | Tech |
-|---|---|
-| Framework | Next.js 14 (App Router) |
-| Language | TypeScript |
-| Animations | GSAP 3 (SplitText, ScrollTrigger) |
-| 3D | Three.js + @react-three/fiber + @react-three/drei |
-| Smooth Scroll | Lenis |
-| Styling | CSS Modules + Google Fonts (Syne + Space Mono) |
+- **Name:** Ravi Chauhan
+- **Location:** Lucknow, India
+- **Education:** B.Tech in Computer Science & Engineering
+- **Career Goal:** Blockchain / Web3 Developer
+- **GitHub:** [Rav1Chauhan](https://github.com/Rav1Chauhan)
+- **LinkedIn:** [Ravi Chauhan](https://www.linkedin.com/in/rav1chauhan/)
 
-## ✦ Directory Structure
+## Featured Projects
 
-```
-parakh-portfolio/
-├── app/
-│   ├── globals.css          # CSS variables, noise, cursor, scrollbar
-│   ├── layout.tsx           # Root layout with cursor + smooth scroll
-│   └── page.tsx             # Main page assembling all sections
-├── components/
-│   ├── CustomCursor.tsx     # Dot + ring cursor with GSAP lag
-│   ├── SmoothScroll.tsx     # Lenis wrapper
-│   ├── Navbar.tsx           # Fixed nav with scroll state
-│   ├── Navbar.module.css
-│   ├── ThreeBackground.tsx  # Three.js canvas (particles, shapes, grid)
-│   ├── HeroSection.tsx      # GSAP SplitText entrance animation
-│   ├── HeroSection.module.css
-│   ├── AboutSection.tsx     # Stats + bio with scroll reveals
-│   ├── AboutSection.module.css
-│   ├── SkillsSection.tsx    # Card grid + GSAP marquee
-│   ├── SkillsSection.module.css
-│   ├── WorkSection.tsx      # Hover-expand project list
-│   ├── WorkSection.module.css
-│   ├── ExperienceSection.tsx # Timeline with sticky education panel
-│   ├── ExperienceSection.module.css
-│   ├── ContactSection.tsx   # Magnetic email + social links
-│   ├── ContactSection.module.css
-│   ├── Footer.tsx
-│   └── Footer.module.css
-├── package.json
-├── next.config.js
-└── tsconfig.json
-```
+### 1. VotingOnChain
+A Solana-based on-chain voting application built using Rust and the Anchor framework.
 
-## ✦ Getting Started
+- Blockchain: Solana
+- Smart Contracts: Rust, Anchor
+- Frontend: React, TypeScript
+- Live Demo: https://voting-on-chain.vercel.app/
+- Repository: https://github.com/Rav1Chauhan/VotingOnChain
+
+### 2. Solana Token Escrow
+A Solana-based token escrow application implementing PDA-controlled token vaults and atomic swap functionality.
+
+- Blockchain: Solana
+- Smart Contracts: Rust, Anchor
+- Testing: LiteSVM
+- Frontend: React, TypeScript
+- Live Demo: https://escrow-sjf3.vercel.app/
+- Repository: https://github.com/Rav1Chauhan/Escrow
+
+### 3. ETHindexer
+An Ethereum blockchain indexing project designed to process blockchain data and expose indexed information through REST APIs.
+
+- TypeScript
+- Node.js
+- Express.js
+- Ethers.js
+- PostgreSQL
+- Prisma
+
+Repository: https://github.com/Rav1Chauhan/ETHindexer
+
+### 4. PDA Chat
+An on-chain messaging project built with Solana, Rust, and Anchor, exploring PDA-based account management and encrypted messaging.
+
+- Solana
+- Rust
+- Anchor
+- Program Derived Addresses (PDAs)
+
+Repository: https://github.com/Rav1Chauhan/pda-chat
+
+### 5. RealTimeExcelidraw
+A real-time collaborative whiteboard application that allows multiple users to draw and collaborate in shared rooms.
+
+- Next.js
+- React
+- TypeScript
+- Node.js
+- Express.js
+- WebSockets
+- PostgreSQL
+- Turborepo
+
+Live Demo: https://real-time-excelidraw-excelidraw-fro-chi.vercel.app/
+
+### 6. Brain
+A second-brain application for saving, organizing, and managing useful content from different platforms.
+
+- React
+- TypeScript
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
+
+Live Demo: https://brain-eta-blue.vercel.app/
+
+## Open Source Contributions
+
+I contribute to open-source projects and collaborate with developers to improve real-world software.
+
+My open-source work includes contributions to AOSSIE's StablePay project, exploring support for additional Djed protocols.
+
+GitHub: https://github.com/Rav1Chauhan
+
+## Tech Stack
+
+**Blockchain & Web3**
+- Solidity
+- Ethereum
+- Solana
+- Rust
+- Anchor
+- Smart Contracts
+- Foundry
+
+**Frontend**
+- React.js
+- Next.js
+- TypeScript
+- JavaScript
+- HTML
+- CSS
+- Tailwind CSS
+
+**Backend**
+- Node.js
+- Express.js
+- REST APIs
+- WebSockets
+
+**Databases & Tools**
+- PostgreSQL
+- MongoDB
+- Prisma
+- Git
+- GitHub
+- Linux
+
+## Getting Started
+
+Clone the repository:
 
 ```bash
-# 1. Install dependencies
+git clone https://github.com/Rav1Chauhan/RaviChauhanPortfolio.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd RaviChauhanPortfolio
+```
+
+Install dependencies:
+
+```bash
 npm install
-
-# 2. Run dev server
-npm run dev
-
-# 3. Open http://localhost:3000
 ```
 
-## ✦ Deploy to Vercel
+Start the development server:
 
 ```bash
-npm install -g vercel
-vercel
+npm run dev
 ```
 
-Or push to GitHub and import the repo at vercel.com — zero config needed.
+Open http://localhost:3000 in your browser.
 
-## ✦ Customisation Tips
+## Deployment
 
-- **Colors** — All CSS variables are in `app/globals.css` under `:root`
-- **Three.js** — Edit `components/ThreeBackground.tsx` to adjust particle count, colors, or shapes
-- **Projects** — Update the `projects` array in `components/WorkSection.tsx`
-- **Content** — All copy is inline in each section component for easy editing
+This portfolio can be deployed using [Vercel](https://vercel.com/).
 
-## ✦ Notes
+Connect the GitHub repository to Vercel, configure the project, and deploy.
 
-- GSAP `SplitText` is used in `HeroSection` — it's part of GSAP's free tier as of v3.12
-- Three.js canvas is loaded via `next/dynamic` with `ssr: false` to avoid hydration issues
-- `lenis` smooth scroll is wrapped at layout level so it applies globally
+## Connect With Me
+
+- GitHub: https://github.com/Rav1Chauhan
+- LinkedIn: https://www.linkedin.com/in/rav1chauhan/
+
+---
+
+**Ravi Chauhan**
+
+Blockchain & Web3 Developer | Building Decentralized Applications
