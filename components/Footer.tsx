@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.inner}>
         <div className={styles.left}>
-          <span className={styles.logo}>PC<span className={styles.logoDot} /></span>
+          <span className={styles.logo}>RC<span className={styles.logoDot} /></span>
           <span className={styles.copy}>
             © {year} Ravi Chauhan . Crafted with Next.js, Tailwind, GSAP & Framer Motion.
           </span>
