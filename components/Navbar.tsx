@@ -61,7 +61,7 @@ export default function Navbar() {
     <>
       <nav ref={navRef} className={`${styles.nav} ${scrolled ? styles.scrolled : ""}`}>
         <a href="#" className={styles.logo}>
-          <span className={styles.logoText}>PC</span>
+          <span className={styles.logoText}>RC</span>
           <span className={styles.logoDot} />
         </a>
 

@@ -141,14 +141,15 @@ export default function HeroSection() {
             </svg>
           </a>
           <a
-            href="mailto:1chauhanravi0@gmail.com"
+            href="#contact"
             className={styles.btnSecondary}
+            target="_self"
           >
-            Let&apos;s Talk
+            Let's Talk
           </a>
         </div>
 
-        <div className={styles.meta}>
+        {/* <div className={styles.meta}>
           <span className={styles.metaItem}>
             <span className={styles.metaNum}>{calculateTotalExperience()}</span>{" "}
             Yrs Exp
@@ -162,7 +163,7 @@ export default function HeroSection() {
             <span className={styles.metaNum}>{experiences.length}</span>{" "}
             Companies
           </span>
-        </div>
+        </div> */}
       </div>
 
       <div className={styles.scrollIndicator}>
